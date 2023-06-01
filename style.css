@@ -175,22 +175,21 @@ footer .footer-links a:hover {
 
 .sepet {
   border-radius: 10px 0 0 10px;
-  position: absolute;
+  position: fixed;
   top: 100px;
   right: 0;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 10px;
   transition: transform 0.3s ease-in-out;
-  transform: translateX(100%);
+  transform: translateX(110%);
   z-index: 2;
   width: 50%;
 }
 
 .sepet.visible {
-  transform: translateX(0%);
+  transform: translate(0);
 }
-
 .urunler {
   height: 200px;
   overflow-x: scroll;
